@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sample.OpenTelemetry.Api", "src\Sample.OpenTelemetry.Api\Sample.OpenTelemetry.Api.csproj", "{01225AB3-41C3-4608-B9FE-0D25D8CD45E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3C9C97AD-C20F-494D-B4C3-FA43F40144D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker", "docker", "{98F93CD4-D337-481B-92B6-AD81659D1BC0}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yaml = docker-compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01225AB3-41C3-4608-B9FE-0D25D8CD45E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01225AB3-41C3-4608-B9FE-0D25D8CD45E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01225AB3-41C3-4608-B9FE-0D25D8CD45E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01225AB3-41C3-4608-B9FE-0D25D8CD45E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{01225AB3-41C3-4608-B9FE-0D25D8CD45E8} = {3C9C97AD-C20F-494D-B4C3-FA43F40144D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7B6440D-E86B-4B8B-AB1A-BC06104DC402}
+	EndGlobalSection
+EndGlobal
